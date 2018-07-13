@@ -24,9 +24,6 @@ func (p Carrer) Subscribe (name string) {
 	fmt.Printf("La persona %s se ha registrado a la carrera %s\n", name, p.Name)
 }
 
-
-
-
 // An interface for Course and Carrer
 type Organization interface {
 	Subscribe(name string)
