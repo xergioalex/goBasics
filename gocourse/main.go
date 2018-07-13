@@ -32,4 +32,8 @@ func main() {
 	SwitchTest();
 
 	stringsc.Strings2()
+
+	fmt.Println(structs.GetMap())
+	fmt.Println(structs.GetMap2())
+	fmt.Println(structs.GetMap3("Sergio"))
 }
