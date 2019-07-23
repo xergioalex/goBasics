@@ -16,7 +16,7 @@ $ sudo apt-get install golang-go
 For anothers S.O and distribution check the [main page](https://golang.org/).
 
 2. Set GoPath for your workspace.
-```
+```shell
 export GOPATH=/home/myuser/goProjects
 ```
 
@@ -25,8 +25,8 @@ I recommend you add it to your `.bashrc` or `.zshrc`.
 ## Run go project
 
 Just type the following command
-```
-$go run filename.go
+```shell
+$ go run filename.go
 ```
 
 ## Exercises
