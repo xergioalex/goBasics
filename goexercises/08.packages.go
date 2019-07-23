@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"goBasics/gocourse/mypackage"
+	"goBasics/goexercises/mypackage"
 )
 
 func main() {

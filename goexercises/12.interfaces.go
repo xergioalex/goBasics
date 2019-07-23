@@ -35,10 +35,10 @@ func callSubscribe(p Organization) {
 
 
 func main() {
-	goCourse := Course{ Name: "Go", Slug: "go", Skills: [] string { "1", "2" } }
+	goexercises := Course{ Name: "Go", Slug: "go", Skills: [] string { "1", "2" } }
 	goCarrer := new(Carrer)
 	goCarrer.Name = "GoCarrer"
 	goCarrer.Slug = "go"
-	callSubscribe(goCourse)
+	callSubscribe(goexercises)
 	callSubscribe(goCarrer)
 }

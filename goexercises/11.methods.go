@@ -16,6 +16,6 @@ func (p Course) Subscribe (name string) {
 
 
 func main() {
-	goCourse := Course{ Name: "Go", Slug: "go", Skills: [] string { "1", "2" } }
-	goCourse.Subscribe("Sergio")
+	goexercises := Course{ Name: "Go", Slug: "go", Skills: [] string { "1", "2" } }
+	goexercises.Subscribe("Sergio")
 }

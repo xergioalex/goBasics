@@ -2,11 +2,11 @@ package main
 
 import (
 	"fmt"
-	"goBasics/gocourse/mypackage"
-	"goBasics/gocourse/numbers"
-	"goBasics/gocourse/structs"
-	. "goBasics/gocourse/flow"
-	"goBasics/gocourse/stringsc"
+	"goBasics/goexercises/mypackage"
+	"goBasics/goexercises/numbers"
+	"goBasics/goexercises/structs"
+	. "goBasics/goexercises/flow"
+	"goBasics/goexercises/stringsc"
 )
 
 func main() {

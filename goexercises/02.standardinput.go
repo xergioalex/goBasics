@@ -4,7 +4,7 @@ import "fmt"
 
 func main () {
 	var name string
-	fmt.Print("Ingresa tu nombre: ")
+	fmt.Print("Type your name: ")
 	fmt.Scanf("%s", &name)
-	fmt.Printf("Hola %s bienvenido", name)
+	fmt.Printf("Hey %s, welcome", name)
 }
