@@ -6,11 +6,11 @@ func pointerTest() {
 	a := 100
 	var b * int
 	b = &a
-	fmt.Println("Sin modificar")
+	fmt.Println("Without modifications")
 	fmt.Println(a, *b)
 	fmt.Println(&a, b)
 	pointerModify(b)
-	fmt.Println("Con una modificación")
+	fmt.Println("With modifications")
 	fmt.Println(a, *b)
 	fmt.Println(&a, b)
 }

@@ -32,5 +32,6 @@ func main () {
 		panic(err.Error)
 	}
 
+	fmt.Println(len(post))
 	fmt.Println(post[0])
 }

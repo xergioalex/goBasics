@@ -12,7 +12,7 @@ func GetArray() {
 
 func GetSlice() {
 	var slice1 [] string
-	slice1 = append(slice1, "mi", "slice", "1")
+	slice1 = append(slice1, "my", "slice", "1")
 	fmt.Println(slice1)
 }
 
@@ -25,7 +25,7 @@ type Course struct {
 
 
 func (p Course) Subscribe (name string) {
-	fmt.Printf("La persona %s se ha registrado al curso %s\n", name, p.Name)
+	fmt.Printf("The person %s has subscribed to %s course\n", name, p.Name)
 }
 
 
@@ -34,7 +34,5 @@ type Carrer struct {
 }
 
 func (p Carrer) Subscribe (name string) {
-	fmt.Printf("La persona %s se ha registrado a la carrera %s\n", name, p.Name)
+	fmt.Printf("The person %s has subscribed to %s carrer\n", name, p.Name)
 }
-
-

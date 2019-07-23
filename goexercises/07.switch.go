@@ -23,20 +23,20 @@ func main() {
 
 func switchTest() {
 	var number = 0
-	fmt.Print("[Switch] Ingresa un nubero del 1 al 10: ")
+	fmt.Print("[Switch] Type a number between 1 to 10: ")
 	fmt.Scanf("%d", &number)
 
 	switch number {
 		case 1:
-			fmt.Println("El número es 1")
+			fmt.Println("The number is 1")
 		default:
-			fmt.Println("El número no es 1")
+			fmt.Println("The number isnt 1")
 	}
 
 	switch {
 		case number%2 == 0:
-			fmt.Println("El número es par")
+			fmt.Println("The number is even")
 		default:
-			fmt.Println("El número es impar")
+			fmt.Println("The number is odd")
 	}
 }

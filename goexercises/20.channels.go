@@ -7,7 +7,7 @@ func main () {
 
 	go func () {
 		defer close(ch)
-		ch <- "Hola Channel"
+		ch <- "Hi Channel"
 	}()
 
 	fmt.Println(<- ch)

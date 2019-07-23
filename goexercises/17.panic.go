@@ -6,12 +6,12 @@ import "errors"
 func Sum(a interface{}, b interface{}) (int, error) {
 	switch a.(type) {
 		case string:
-			return 0, errors.New("El valor A es un string")
+			return 0, errors.New("The value A is a string")
 	}
 
 	switch b.(type) {
 		case string:
-			return 0, errors.New("El valor A es un string")
+			return 0, errors.New("The value A is a string")
 	}
 
 	return a.(int) + b.(int), nil
